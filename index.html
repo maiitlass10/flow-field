@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Flow Field</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="canvas"></canvas>
+
+  <div class="panel">
+    <h1>Flow Field</h1>
+    <p class="seed">seed: <span id="seed"></span></p>
+    <div class="buttons">
+      <button id="btn-new" title="Shortcut: N">New</button>
+      <button id="btn-pause" title="Shortcut: Space">Pause</button>
+      <button id="btn-save" title="Shortcut: S">Save PNG</button>
+    </div>
+  </div>
+
+  <script src="noise.js"></script>
+  <script src="sketch.js"></script>
+</body>
+</html>
