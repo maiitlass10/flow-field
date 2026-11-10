@@ -5,6 +5,10 @@ Thousands of particles follow an invisible vector field built from Perlin noise.
 
 **Live demo:** https://maiitlass10.github.io/flow-field/
 
+| | | |
+|---|---|---|
+| ![](art-1.png) | ![](art-2.png) | ![](art-3.png) |
+
 ## Features
 - **Perlin noise from scratch** (`noise.js`): no external libraries
 - **Seeded randomness**: every artwork has a seed and can be reproduced exactly (`index.html#7777`)
